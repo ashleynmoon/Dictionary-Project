@@ -11,7 +11,7 @@ export default function App() {
         <main>
            <Dictionary />
         </main>
-        <footer className="text-center">
+        <footer className="App-footer">
           <div>
           <a href="https://github.com/ashleynmoon/react-weather-app"
             target="_blank"
