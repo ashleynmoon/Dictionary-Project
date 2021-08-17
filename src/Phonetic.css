@@ -1,0 +1,12 @@
+.Phonetic .text {
+  opacity: 0.8;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .Phonetic {
+    text-align: center;
+  }
+}

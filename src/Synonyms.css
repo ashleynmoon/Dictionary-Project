@@ -1,0 +1,19 @@
+.Synonyms {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  font-size: 16px;
+  display: inline-block;
+  padding-right: 16px;
+  line-height: 1;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .Synonyms {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.75;
+  }
+}
