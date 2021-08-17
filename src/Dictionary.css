@@ -1,7 +1,21 @@
 .Dictionary section {
-  background: #e0847f;
+  background: #ffcab0;
   padding: 30px;
   border-radius: 16px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.8);
   margin: 20px 0;
+  color: #595f71;
+  font-family: "Raleway", sans-serif;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  color: #595f71;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .hint {
+  font-size: 14px;
+  margin-top: 5px;
 }
