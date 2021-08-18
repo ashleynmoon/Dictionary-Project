@@ -46,14 +46,13 @@ export default function Dictionary(props){
         return(
           <div className="Dictionary">
               <section>
+                <p>What would you like to look up?</p>
                   <form onSubmit={handleSubmit}>
                       <div>
                         <input
                         type="search"
                         placeholder="Type a word..."
-                        autoFocus={true}
-                        onChange={handleKeywordChange}
-                        defaultValue={props.defaultKeyword} />
+                        onChange={handleKeywordChange}/>
                       </div>
                   </form>
                   <div className="hint">suggested words: sunset, wine, yoga</div>
@@ -64,6 +63,6 @@ export default function Dictionary(props){
         );
     } else{
       load();
-      return "Loading";
+      return "Loading...";
     }
 }
