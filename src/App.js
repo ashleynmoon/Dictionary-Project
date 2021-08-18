@@ -13,7 +13,7 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <div>
-          <a href="https://github.com/ashleynmoon/react-weather-app"
+          <a href="https://github.com/ashleynmoon/Dictionary-Project"
             target="_blank"
             rel="noreferrer"
             id="code-link">

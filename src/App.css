@@ -1,3 +1,8 @@
+.App {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 .App-header {
   font-family: "Merriweather", serif;
   color: white;
@@ -9,8 +14,22 @@
 }
 
 .App-footer {
+  color: #926468;
   margin: 30px 0;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
+}
+
+.App-footer a {
+  color: #926468;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.App-footer a:hover {
+  color: #ffcab0;
+  text-decoration: underline;
 }
 
 .background {
